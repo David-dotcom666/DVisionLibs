@@ -15,19 +15,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="modules\DVisionBarcodeRecognize\pybind.cpp">
+    <ClCompile Include="modules\DVisionBlobDetector\src\BlobDetector.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="modules\DVisionBarcodeRecognize\test.cpp">
+    <ClCompile Include="modules\DVisionBlobDetector\pybind.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="modules\DVisionBarcodeRecognize\src\BarcodeRecognize.cpp">
+    <ClCompile Include="modules\DVisionBlobDetector\test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="modules\DVisionBarcodeRecognize\src\BarcodeRecognize.h">
+    <ClInclude Include="modules\DVisionBlobDetector\src\BlobDetector.h">
       <Filter>头文件</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pyModels\BlobDetector\test.py" />
   </ItemGroup>
 </Project>

@@ -41,7 +41,7 @@
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
@@ -97,7 +97,7 @@
     <IncludePath>E:\开源\ThirdParty\opencv4.5.5\Win_x64\include;E:\开源\ThirdParty\pybind11\include;D:\PYQT\Lib\site-packages\numpy\core\include;D:\Python37\include;E:\开源\ThirdParty\zxing\include;E:\开源\ThirdParty\eigen3;$(IncludePath)</IncludePath>
     <LibraryPath>E:\开源\ThirdParty\opencv4.5.5\Win_x64\lib;D:\PYQT\Lib\site-packages\numpy\core\lib;D:\python37\libs;E:\开源\ThirdParty\zxing;$(LibraryPath)</LibraryPath>
     <TargetExt>.pyd</TargetExt>
-    <TargetName>DVisionBarcodeRecognize</TargetName>
+    <TargetName>DVisionBlobDetector</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -189,12 +189,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="modules\DVisionBarcodeRecognize\pybind.cpp" />
-    <ClCompile Include="modules\DVisionBarcodeRecognize\src\BarcodeRecognize.cpp" />
-    <ClCompile Include="modules\DVisionBarcodeRecognize\test.cpp" />
+    <ClCompile Include="modules\DVisionBlobDetector\pybind.cpp" />
+    <ClCompile Include="modules\DVisionBlobDetector\src\BlobDetector.cpp" />
+    <ClCompile Include="modules\DVisionBlobDetector\test.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="modules\DVisionBarcodeRecognize\src\BarcodeRecognize.h" />
+    <ClInclude Include="modules\DVisionBlobDetector\src\BlobDetector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pyModels\BlobDetector\test.py" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

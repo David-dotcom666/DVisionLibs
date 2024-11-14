@@ -39,7 +39,7 @@ inline void DrawResult(cv::Mat& img, ZXing::Result res)
 	cv::putText(img, res.text(), zx2cv(pos[3]) + cv::Point(0, 20), cv::FONT_HERSHEY_DUPLEX, 0.5, CV_RGB(0, 255, 0));
 }
 
-int main(int argc, char* argv[])
+int main_bar(int argc, char* argv[])
 {
 	Mat src1 = imread("img/DVisionBarcode/bar2.bmp");
 	imshow("Display window1", src1);

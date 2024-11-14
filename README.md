@@ -13,5 +13,12 @@ c.修改编译pyd<br>
   修改后注意将项目属性的配置类型改成"动态库.dll",将配置属性-高级-高级属性-目标文件扩展名改成:.pyd<br>
 d.修改编译dll<br>
   修改后注意将项目属性的配置类型改成"动态库.dll",将配置属性-高级-高级属性-目标文件扩展名改成:.dll<br>
+e.需要选择编译指定模块,在设置中设置生成库文件的名称,其他的模块需要在vs中设置选择从项目中排除
   
-![6](https://github.com/user-attachments/assets/c8f18057-257d-42c2-b2db-8d548e775a99)
+![barcode result](图像算法库说明/img/6.png)<br>
+
+2.Blob Detection<br>
+用法同上<br>
+a.python版本中可以查看检测结果<br>
+![blob result](图像算法库说明/img/7.png)<br>
+![blob result](图像算法库说明/img/8.png)<br>
