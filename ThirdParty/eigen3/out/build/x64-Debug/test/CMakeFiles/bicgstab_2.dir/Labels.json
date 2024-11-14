@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Cowain_Algorithm_library/CoVisionLibs/ThirdParty/eigen3/test/bicgstab.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "bicgstab_2"
+	}
+}

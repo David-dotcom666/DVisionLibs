@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Cowain_Algorithm_library/CoVisionLibs/ThirdParty/eigen3/test/stable_norm.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "stable_norm_4"
+	}
+}

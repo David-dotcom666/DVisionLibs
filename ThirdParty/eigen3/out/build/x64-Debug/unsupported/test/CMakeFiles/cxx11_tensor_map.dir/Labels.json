@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Cowain_Algorithm_library/CoVisionLibs/ThirdParty/eigen3/unsupported/test/cxx11_tensor_map.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "cxx11_tensor_map"
+	}
+}

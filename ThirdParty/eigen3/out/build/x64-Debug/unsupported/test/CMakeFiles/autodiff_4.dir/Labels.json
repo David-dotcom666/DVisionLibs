@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Cowain_Algorithm_library/CoVisionLibs/ThirdParty/eigen3/unsupported/test/autodiff.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildUnsupported"
+		],
+		"name" : "autodiff_4"
+	}
+}

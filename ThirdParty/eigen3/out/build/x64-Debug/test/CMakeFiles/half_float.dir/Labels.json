@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "E:/Cowain_Algorithm_library/CoVisionLibs/ThirdParty/eigen3/test/half_float.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "half_float"
+	}
+}
