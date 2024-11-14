@@ -15,22 +15,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="modules\DVisionBlobDetector\src\BlobDetector.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\DVisionBlobDetector\pybind.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="modules\DVisionBlobDetector\test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="modules\DVisionBlobDetector\src\BlobDetector.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="pyModels\BlobDetector\test.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="pyModels\ShapeMatch\123.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pyModels\ShapeMatch\456.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pyModels\ShapeMatch\777.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="pyModels\ShapeMatch\888.png">
+      <Filter>资源文件</Filter>
+    </Image>
   </ItemGroup>
 </Project>
