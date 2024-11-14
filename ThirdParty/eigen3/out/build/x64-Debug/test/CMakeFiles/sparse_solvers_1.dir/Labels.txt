@@ -1,4 +1,0 @@
-# Target labels
- BuildOfficial
-# Source files and their labels
-E:/Cowain_Algorithm_library/CoVisionLibs/ThirdParty/eigen3/test/sparse_solvers.cpp

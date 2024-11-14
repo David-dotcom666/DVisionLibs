@@ -87,8 +87,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(IncludePath)</IncludePath>
-    <LibraryPath>$(LibraryPath)</LibraryPath>
+    <IncludePath>E:\开源\ThirdParty\opencv4.5.5\Win_x64\include;E:\开源\ThirdParty\pybind11\include;D:\PYQT\Lib\site-packages\numpy\core\include;D:\Python37\include;E:\开源\ThirdParty\eigen3;E:\开源\ThirdParty\zxing\include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\开源\ThirdParty\opencv4.5.5\Win_x64\lib;D:\PYQT\Lib\site-packages\numpy\core\lib;D:\Python37\libs;E:\开源\ThirdParty\zxing;$(LibraryPath)</LibraryPath>
     <TargetExt>.dll</TargetExt>
     <TargetName>$(ProjectName)</TargetName>
   </PropertyGroup>
