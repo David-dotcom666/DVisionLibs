@@ -23,27 +23,51 @@ a.python版本中可以查看检测结果<br>
 ![blob result](图像算法库说明/img/7.png)<br>
 ![blob result](图像算法库说明/img/8.png)<br>
 
-3.shape match轮廓匹配<br>
+3.ShapeMatch/轮廓匹配<br>
 ![轮廓匹配](图像算法库说明/img/9.jpg)<br>
 ![轮廓匹配](图像算法库说明/img/10.jpg)<br>
 ![轮廓匹配](图像算法库说明/img/12.jpg)<br>
 
 
-4.形状/灰度匹配<br>
+4.NCCMatch/GrayMatch灰度匹配<br>
+	除了常用的分数,极性,角度范围,数量,重叠率,亚像素等还包括了支持mask功能,均值和标准差加速功能
+
+	cv::Mat temp;				// 模板图像
+
+	bool useMask = 0;			// 使用掩码
+	cv::Mat mask = cv::Mat();	// 掩码
+
+	float score = 0.8;			// 匹配分数
+
+	int maxtargs = 0;			// 最大匹配数量
+	int pyramidLayer = 256;		// 金字塔参数
+
+	float angleStart = 0;		// 匹配角度起始值
+	float angleRange = 360;		// 匹配角度范围
+	float maxOverlap = 0;		// 最大重叠率
+
+	bool useMean = 0;			// 均值加速
+	float mean = 30;
+	bool useSDV = 0;			// 标准差加速
+	float SDV = 30;
+
+	bool polarity = true;		// 极性
+	bool subpixel = 0;			// 亚像素
+
 ![形状匹配](图像算法库说明/img/19.jpg)<br>
 
-5.棋盘格标定<br>
+5.CameraCalibration/ChessboardCalibration棋盘格标定<br>
 ![棋盘格标定](图像算法库说明/img/20.jpg)<br>
 
-5.形状检测-圆<br>
+6.CircleDetection/形状检测-圆<br>
 ![形状检测](图像算法库说明/img/17.jpg)<br>
 
 
-6.边缘检测<br>
+7.EdgeDetection/边缘检测<br>
 ![边缘检测](图像算法库说明/img/18.jpg)<br>
 
 # 其他参考
-https://github.com/DennisLiu1993/Fastest_Image_Pattern_Matching
-https://github.com/meiqua/shape_based_matching
-https://github.com/sdg002/RANSAC
-https://github.com/glassechidna/zxing-cpp
+https://github.com/DennisLiu1993/Fastest_Image_Pattern_Matching<br>
+https://github.com/meiqua/shape_based_matching<br>
+https://github.com/sdg002/RANSAC<br>
+https://github.com/glassechidna/zxing-cpp<br>

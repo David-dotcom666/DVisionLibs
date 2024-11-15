@@ -97,7 +97,7 @@
     <IncludePath>E:\开源\ThirdParty\opencv4.5.5\Win_x64\include;E:\开源\ThirdParty\pybind11\include;D:\PYQT\Lib\site-packages\numpy\core\include;D:\Python37\include;E:\开源\ThirdParty\zxing\include;E:\开源\ThirdParty\eigen3;$(IncludePath)</IncludePath>
     <LibraryPath>E:\开源\ThirdParty\opencv4.5.5\Win_x64\lib;D:\PYQT\Lib\site-packages\numpy\core\lib;D:\python37\libs;E:\开源\ThirdParty\zxing;$(LibraryPath)</LibraryPath>
     <TargetExt>.pyd</TargetExt>
-    <TargetName>DVisionShapeMatch</TargetName>
+    <TargetName>DVisionGrayscaleMatch</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -196,6 +196,14 @@
     <Image Include="pyModels\ShapeMatch\456.png" />
     <Image Include="pyModels\ShapeMatch\777.png" />
     <Image Include="pyModels\ShapeMatch\888.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="modules\DVisionGrayscaleMatch\pybind.cpp" />
+    <ClCompile Include="modules\DVisionGrayscaleMatch\src\GrayscaleMatch.cpp" />
+    <ClCompile Include="modules\DVisionGrayscaleMatch\test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="modules\DVisionGrayscaleMatch\src\GrayscaleMatch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
