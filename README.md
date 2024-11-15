@@ -3,6 +3,7 @@ Traditional machine vision algorithm library(functions/tools), including barcode
 
 计划开源一些项目中常用的算法/功能工具，希望能够即开即用。如果对你有帮助的话烦请star一下，感谢。
 
+
 ## 所有的项目提供了C++源码及编译pyd后python的使用方法和参数说明<br>
 
 ### 1.Read Barcode<br>
@@ -259,6 +260,10 @@ a.python版本中可以查看检测结果<br>
 
 ### 7.EdgeDetection/边缘检测<br>
 ![边缘检测](图像算法库说明/img/18.jpg)<br>
+
+## 这里是thirdparty库文件
+链接：https://pan.baidu.com/s/1nU3NRDr7pU4fnckgzbZ30A?pwd=dvdv 
+提取码：dvdv 
 
 # 其他参考
 https://github.com/DennisLiu1993/Fastest_Image_Pattern_Matching<br>
