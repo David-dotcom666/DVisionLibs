@@ -32,18 +32,33 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="modules\DVisionGrayscaleMatch\pybind.cpp">
+    <ClCompile Include="modules\DVisionCircleDetect\pybind.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="modules\DVisionGrayscaleMatch\test.cpp">
+    <ClCompile Include="modules\DVisionCircleDetect\test.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="modules\DVisionGrayscaleMatch\src\GrayscaleMatch.cpp">
+    <ClCompile Include="modules\DVisionCircleDetect\src\CircleDetect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\DVisionCircleDetect\src\ED.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="modules\DVisionCircleDetect\src\EDPF.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="modules\DVisionGrayscaleMatch\src\GrayscaleMatch.h">
+    <ClInclude Include="modules\DVisionCircleDetect\src\CircleDetect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\DVisionCircleDetect\src\ED.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\DVisionCircleDetect\src\EDPF.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="modules\DVisionCircleDetect\src\InstructionSet.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

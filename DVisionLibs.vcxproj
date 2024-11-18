@@ -97,7 +97,7 @@
     <IncludePath>E:\开源\ThirdParty\opencv4.5.5\Win_x64\include;E:\开源\ThirdParty\pybind11\include;D:\PYQT\Lib\site-packages\numpy\core\include;D:\Python37\include;E:\开源\ThirdParty\zxing\include;E:\开源\ThirdParty\eigen3;$(IncludePath)</IncludePath>
     <LibraryPath>E:\开源\ThirdParty\opencv4.5.5\Win_x64\lib;D:\PYQT\Lib\site-packages\numpy\core\lib;D:\python37\libs;E:\开源\ThirdParty\zxing;$(LibraryPath)</LibraryPath>
     <TargetExt>.pyd</TargetExt>
-    <TargetName>DVisionGrayscaleMatch</TargetName>
+    <TargetName>DVisionCircleDetect</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -198,12 +198,17 @@
     <Image Include="pyModels\ShapeMatch\888.png" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="modules\DVisionGrayscaleMatch\pybind.cpp" />
-    <ClCompile Include="modules\DVisionGrayscaleMatch\src\GrayscaleMatch.cpp" />
-    <ClCompile Include="modules\DVisionGrayscaleMatch\test.cpp" />
+    <ClCompile Include="modules\DVisionCircleDetect\pybind.cpp" />
+    <ClCompile Include="modules\DVisionCircleDetect\src\CircleDetect.cpp" />
+    <ClCompile Include="modules\DVisionCircleDetect\src\ED.cpp" />
+    <ClCompile Include="modules\DVisionCircleDetect\src\EDPF.cpp" />
+    <ClCompile Include="modules\DVisionCircleDetect\test.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="modules\DVisionGrayscaleMatch\src\GrayscaleMatch.h" />
+    <ClInclude Include="modules\DVisionCircleDetect\src\CircleDetect.h" />
+    <ClInclude Include="modules\DVisionCircleDetect\src\ED.h" />
+    <ClInclude Include="modules\DVisionCircleDetect\src\EDPF.h" />
+    <ClInclude Include="modules\DVisionCircleDetect\src\InstructionSet.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
