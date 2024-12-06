@@ -260,6 +260,8 @@ a.python版本中可以查看检测结果<br>
 ### 7.EdgeDetection/边缘检测<br>
 ![边缘检测](图像算法库说明/img/18.jpg)<br>
 
+后续更新计划:直线检测，基于梯度点的直线拟合检测工具，基于梯度点的圆形拟合检测工具，椭圆检测
+
 # 其他参考
 https://github.com/DennisLiu1993/Fastest_Image_Pattern_Matching<br>
 https://github.com/meiqua/shape_based_matching<br>
