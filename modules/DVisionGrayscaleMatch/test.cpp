@@ -8,17 +8,17 @@ int main()
 	Mat src_image, temp_image, src_image2;
 	if (1)
 	{
-		src_image = imread("img/CoVisionGrayscaleMatch/1src_image/img1.bmp", 0);
-		temp_image = imread("img/CoVisionGrayscaleMatch/2temp_image/img1.bmp", 0);
-		src_image2 = imread("img/CoVisionGrayscaleMatch/1src_image/img1.bmp");
+		src_image = imread("img/DVisionGrayscaleMatch/1src_image/img1.bmp", 0);
+		temp_image = imread("img/DVisionGrayscaleMatch/2temp_image/img1.bmp", 0);
+		src_image2 = imread("img/DVisionGrayscaleMatch/1src_image/img1.bmp");
 		Scalar meanMat, meanStdMat;
 		meanStdDev(temp_image, meanMat, meanStdMat);
 	}
 	else
 	{
-		src_image = imread("img/CoVisionGrayscaleMatch/image/6_1.bmp", 0);
-		temp_image = imread("img/CoVisionGrayscaleMatch/image/6_1.png", 0);
-		src_image2 = imread("img/CoVisionGrayscaleMatch/image/6_1.bmp");
+		src_image = imread("img/DVisionGrayscaleMatch/image/6_1.bmp", 0);
+		temp_image = imread("img/DVisionGrayscaleMatch/image/6_1.png", 0);
+		src_image2 = imread("img/DVisionGrayscaleMatch/image/6_1.bmp");
 	}
 
 	double t1 = getTickCount();
